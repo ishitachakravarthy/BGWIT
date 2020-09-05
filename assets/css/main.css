@@ -2168,8 +2168,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		button.primary,
 		.button.primary {
-			background: #83d3c9;
-			border-color: #83d3c9;
+			background: #ec3841;
+			border-color: #f05c63;
 			color: #fff !important;
 		}
 
@@ -2178,8 +2178,8 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background: #96dad1 !important;
-				border-color: #96dad1 !important;
+				background:#f05c63!important;
+				border-color: 	 #fff!important;
 			}
 
 		input[type="button"].fit,
