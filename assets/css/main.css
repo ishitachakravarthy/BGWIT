@@ -2621,13 +2621,14 @@ input, select, textarea {
 /* CTA */
 
 	#cta {
-		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: top left, top right, top left, bottom center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-attachment: scroll, scroll;
+		background-image: url("images/light-tl.svg"), url("images/light-tr.svg");
+		background-position: top left, top right;
+		background-repeat: no-repeat, no-repeat;
+		background-size: 25em, 25em;
 		color: #fff;
+		background-color: #ee444d;
+		
 		padding: 5em;
 		text-align: center;
 	}
