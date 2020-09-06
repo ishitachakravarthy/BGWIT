@@ -60,7 +60,7 @@
 
 							<!-- Content -->
 								<div class="content">
-									<form>
+									<form name="submit-to-google-sheet">
 										<div class="row gtr-50">
 											<div class="col-12">
 												<input type="text" name="name" placeholder="Name" />
@@ -94,10 +94,25 @@
 				</footer>
 
 		</div>
+			
+  
+<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycby89kFfN6_CL4bzTXmhOcigny48is7-jO9PLbdhYds0Js8gQgNz/exec'
+  const form = document.forms['submit-to-google-sheet']
 
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/contact.js"></script>
+			
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollgress.min.js"></script>
