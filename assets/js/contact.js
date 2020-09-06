@@ -1,14 +1,21 @@
-var $form = $('form#test-form'),
-    url = 'https://script.google.com/macros/s/abcdefghijklmnopqrstuvwxyz1234567890/exec'
+$(document).ready(function(){
+  var $form = $('form#test-form'),
+    url = 'https://script.google.com/macros/s/AKfycby89kFfN6_CL4bzTXmhOcigny48is7-jO9PLbdhYds0Js8gQgNz/exec';
 
-$('#submit-form').on('click', function(e) {
+$('#test-form').on('submit', function(e) {
   e.preventDefault();
-  var jqxhr = $.ajax({
+  $.ajax({
     url: url,
-    method: "GET",
+    method: "POST",
     dataType: "json",
-    data: $form.serializeObject()
-  }).success(
-    // do something
+    data: $form.serialize()
+  })
+  .fail(function(){
+    console.log("failed");
+  })
+  .success(function(){
+    console.log("added successfully!");
+  }
   );
-})
+});
+});
