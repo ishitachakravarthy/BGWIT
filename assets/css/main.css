@@ -78,7 +78,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f3f6fa;
+		background: #fff;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2575,7 +2575,7 @@ input, select, textarea {
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
-		padding: 3em 0;
+		padding: 3em 0 0.5em 0;
 	}
 
 		#main > :last-child {
@@ -2605,13 +2605,13 @@ input, select, textarea {
 		background-size: 25em, 25em;
 		color: #fff;
 		background-color: #ee444d;
-		
+		margin-bottom: 0;
 		padding: 5em;
 		text-align: center;
 	}
 
 		#cta header {
-			margin-bottom: 2em;
+			margin-bottom: 0em;
 		}
 
 /* Footer */
@@ -2619,7 +2619,7 @@ input, select, textarea {
 	#footer {
 		background: #E8EEF4;
 		color: #7c8081;
-		padding: 5em 5em 10em 5em;
+		padding: 0;
 		text-align: center;
 	}
 
@@ -2716,14 +2716,14 @@ input, select, textarea {
 		/* CTA */
 
 			#cta {
-				padding: 4em;
+				padding: 3em 0 3em 0;
 				background-attachment: scroll;
 			}
 
 		/* Footer */
 
 			#footer {
-				padding: 4em;
+				padding: 1.5em;
 			}
 
 	}
@@ -2931,7 +2931,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 4em 1.5em;
+				padding: 1.5em ;
 			}
 
 		/* Nav */
@@ -3177,18 +3177,13 @@ input, select, textarea {
 
 		/* Button */
 
-			input[type="button"],
-			input[type="submit"],
-			input[type="reset"],
-			button,
+			
 			.button {
 				max-width: 20em;
 				width: 100%;
 			}
 
-				input[type="button"].fit,
-				input[type="submit"].fit,
-				input[type="reset"].fit,
+				
 				button.fit,
 				.button.fit {
 					width: auto;
@@ -3205,7 +3200,20 @@ input, select, textarea {
 			ul.featured-icons li .icon {
 				width: 1.1em;
 			}
+			ul.featured-icons {
+				margin: 0;
+			}
 
+				ul.featured-icons li {
+					display: inline-block;
+					float: none;
+					width: auto;
+				}
+
+					ul.featured-icons li .icon {
+						font-size: 4em;
+						width: 1.25em;
+					}
 		/* Buttons */
 
 			ul.buttons {
@@ -3287,7 +3295,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 3em 1.5em;
+				padding: 1.5em;
 			}
 
 				#footer .copyright li {
