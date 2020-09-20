@@ -2590,7 +2590,7 @@ input, select, textarea {
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
-		padding: 5em 0;
+		padding: 3em 0;
 	}
 
 		#main > :last-child {
