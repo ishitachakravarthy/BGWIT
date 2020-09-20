@@ -2119,9 +2119,6 @@ input, select, textarea {
 
 /* Button */
 
-	input[type="button"],
-	input[type="submit"],
-	input[type="reset"],
 	button,
 	.button {
 		-moz-appearance: none;
@@ -2149,18 +2146,14 @@ input, select, textarea {
 		text-transform: uppercase;
 	}
 
-		input[type="button"]:hover,
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
+		
 		button:hover,
 		.button:hover {
 			background: rgba(188, 202, 206, 0.15);
 			border-color: inherit;
 		}
 
-		input[type="button"].primary,
-		input[type="submit"].primary,
-		input[type="reset"].primary,
+		
 		button.primary,
 		.button.primary {
 			background: #ec3841;
@@ -2168,26 +2161,20 @@ input, select, textarea {
 			color: #fff !important;
 		}
 
-			input[type="button"].primary:hover,
-			input[type="submit"].primary:hover,
-			input[type="reset"].primary:hover,
+			
 			button.primary:hover,
 			.button.primary:hover {
 				background:#f05c63!important;
 				border-color: 	 #fff!important;
 			}
 
-		input[type="button"].fit,
-		input[type="submit"].fit,
-		input[type="reset"].fit,
+		
 		button.fit,
 		.button.fit {
 			width: 100%;
 		}
 
-		input[type="button"].small,
-		input[type="submit"].small,
-		input[type="reset"].small,
+		
 		button.small,
 		.button.small {
 			font-size: 0.7em;
@@ -2861,9 +2848,7 @@ input, select, textarea {
 
 		/* Button */
 
-			input[type="button"].small,
-			input[type="submit"].small,
-			input[type="reset"].small,
+			
 			button.small,
 			.button.small {
 				font-size: 0.8em;
@@ -3192,18 +3177,14 @@ input, select, textarea {
 
 		/* Button */
 
-			input[type="button"],
-			input[type="submit"],
-			input[type="reset"],
+			
 			button,
 			.button {
 				max-width: 20em;
 				width: 100%;
 			}
 
-				input[type="button"].fit,
-				input[type="submit"].fit,
-				input[type="reset"].fit,
+				
 				button.fit,
 				.button.fit {
 					width: auto;
