@@ -2119,7 +2119,8 @@ input, select, textarea {
 
 /* Button */
 
-	button,
+	
+	
 	.button {
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -2153,7 +2154,6 @@ input, select, textarea {
 			border-color: inherit;
 		}
 
-		
 		button.primary,
 		.button.primary {
 			background: #ec3841;
@@ -2168,13 +2168,11 @@ input, select, textarea {
 				border-color: 	 #fff!important;
 			}
 
-		
 		button.fit,
 		.button.fit {
 			width: 100%;
 		}
 
-		
 		button.small,
 		.button.small {
 			font-size: 0.7em;
@@ -2848,7 +2846,9 @@ input, select, textarea {
 
 		/* Button */
 
-			
+			input[type="button"].small,
+			input[type="submit"].small,
+			input[type="reset"].small,
 			button.small,
 			.button.small {
 				font-size: 0.8em;
@@ -3177,14 +3177,18 @@ input, select, textarea {
 
 		/* Button */
 
-			
+			input[type="button"],
+			input[type="submit"],
+			input[type="reset"],
 			button,
 			.button {
 				max-width: 20em;
 				width: 100%;
 			}
 
-				
+				input[type="button"].fit,
+				input[type="submit"].fit,
+				input[type="reset"].fit,
 				button.fit,
 				.button.fit {
 					width: auto;
