@@ -8,6 +8,7 @@
   padding: 0;
   text-align: center;
   font-size: 20px;
+  font-family: font-family: 'Font Awesome 5 Free';
 }
 .collapsible {
   background-color: transparent;
@@ -21,6 +22,9 @@
 }
 .date{
   width: 50%;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -32,6 +36,12 @@
 .content {
   padding: 0 ;
   display: none;
+  overflow: hidden;
+  background-color: transparent;
+  font-size: 10px;
+}
+.content1 {
+  padding: 0 ;
   overflow: hidden;
   background-color: transparent;
   font-size: 10px;
@@ -100,18 +110,18 @@
 
 
 .previous {
-  background-color: #ff4d4d;
+  background-color: #ED3A40;
   color: white;
 }
 .previous:hover{
-  background-color: #ffe6e6;
+  background-color: #f27074 ;
 }
 .next:hover{
-  background-color: #ffe6e6;
+  background-color: #f27074;
 }
 
 .next {
-  background-color: #ff4d4d;
+  background-color: #ED3A40;
   color: white;
 }
 
@@ -121,9 +131,9 @@
 .btn{
 
   font-size: 0.9em;
-  font-family: arial;
+  font-family: 'Lato', sans-serif;    
   text-transform: none;
-  font-weight: normal;
+  font-weight: 100;
   margin-bottom: 20px;
 
 }
