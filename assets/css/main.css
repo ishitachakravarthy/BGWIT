@@ -106,9 +106,9 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		color: #3fb1a3;
+		color: #ED3A40;
 		text-decoration: none;
-		border-bottom: dotted 1px;
+		border-bottom:1px;
 	}
 
 		a:hover {
@@ -1808,7 +1808,7 @@ input, select, textarea {
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #83d3c9;
+			border-color: #ED3A40;
 		}
 
 	input[type="text"],
@@ -1929,51 +1929,7 @@ input, select, textarea {
 				top: -0.2em;
 			}
 
-			.icon.circle.fa-twitter {
-				background: #70aecd;
-				color: #fff;
-			}
-
-				.icon.circle.fa-twitter:hover {
-					background: #7fb7d2;
-				}
-
-			.icon.circle.fa-facebook-f {
-				background: #7490c3;
-				color: #fff;
-			}
-
-				.icon.circle.fa-facebook-f:hover {
-					background: #829bc9;
-				}
-
-			.icon.circle.fa-google-plus-g {
-				background: #db6b67;
-				color: #fff;
-			}
-
-				.icon.circle.fa-google-plus-g:hover {
-					background: #df7b77;
-				}
-
-			.icon.circle.fa-github {
-				background: #dcad8b;
-				color: #fff;
-			}
-
-				.icon.circle.fa-github:hover {
-					background: #e1b89b;
-				}
-
-			.icon.circle.fa-dribbble {
-				background: #da83ae;
-				color: #fff;
-			}
-
-				.icon.circle.fa-dribbble:hover {
-					background: #df93b8;
-				}
-
+			
 		.icon.featured {
 			cursor: default;
 			display: block;
@@ -2150,13 +2106,13 @@ input, select, textarea {
 		
 		button:hover,
 		.button:hover {
-			background: rgba(188, 202, 206, 0.15);
+			background: ;
 			border-color: inherit;
 		}
 
 		button.primary,
 		.button.primary {
-			background: #ec3841;
+			background: #ED3A40;
 			border-color: #f05c63;
 			color: #fff !important;
 		}
@@ -2164,7 +2120,7 @@ input, select, textarea {
 			
 			button.primary:hover,
 			.button.primary:hover {
-				background:#f05c63!important;
+				background:#ED3A40!important;
 				border-color: 	 #fff!important;
 			}
 
@@ -2192,7 +2148,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #ee444d;
+			background-color: #ED3A40;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -2215,7 +2171,7 @@ input, select, textarea {
 			.wrapper.style2 .button.primary {
 				background: #fff;
 				border-color: #fff;
-				color: #83d3c9 !important;
+				color: #ED3A40 !important;
 			}
 
 				.wrapper.style2 input[type="button"].primary:hover,
@@ -2454,13 +2410,14 @@ input, select, textarea {
 			}
 
 			.dropotron > li:hover > a {
-				background: #83d3c9;
+				background: #ED3A40;
 				color: #fff;
 			}
 
 			.dropotron > li:first-child {
 				border-top: 0;
 			}
+
 
 /* Banner */
 
@@ -2506,7 +2463,7 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
+		background-color: #ED3A40;
 		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/BDome.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
@@ -2604,7 +2561,7 @@ input, select, textarea {
 		background-repeat: no-repeat, no-repeat;
 		background-size: 25em, 25em;
 		color: #fff;
-		background-color: #ee444d;
+		background-color: #ED3A40;
 		margin-bottom: 0;
 		padding: 5em;
 		text-align: center;
