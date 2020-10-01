@@ -131,7 +131,8 @@ input, select, textarea {
 		text-transform: uppercase;
 
 	}
-		h7 {
+
+	h7 {
 
 		font-weight: 500;
 		line-height: 1.75em;
@@ -139,6 +140,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		color: #7c8081;
 	}
+
 	h8 {
 
 		line-height: 1.75em;
@@ -185,6 +187,12 @@ input, select, textarea {
 		padding: 1em 0 1em 2em;
 	}
 
+	.content1{
+		max-height: 190px;
+		overflow: hidden;
+		margin-bottom: 10px;
+
+	}
 /* Container */
 
 	.container {
@@ -1736,7 +1744,7 @@ input, select, textarea {
 	}
 
 	header.special {
-		margin-bottom: 5em;
+		margin-bottom: 2em;
 		padding-top: 7em;
 		position: relative;
 		text-align: center;
@@ -2058,6 +2066,7 @@ input, select, textarea {
 				padding: 0;
 			}
 
+
 /* Table */
 
 	table {
@@ -2120,7 +2129,7 @@ input, select, textarea {
 		
 		button:hover,
 		.button:hover {
-			background: ;
+			background:;
 			border-color: inherit;
 		}
 
@@ -2134,7 +2143,7 @@ input, select, textarea {
 			
 			button.primary:hover,
 			.button.primary:hover {
-				background:#ED3A40!important;
+				background: #ea5b54!important;
 				border-color: 	 #fff!important;
 			}
 
@@ -2150,11 +2159,13 @@ input, select, textarea {
 			padding: 0.5em 0;
 		}
 
+
 /* Wrapper */
 
 	.wrapper {
 		margin-bottom: 5em;
 		padding: 5em;
+
 	}
 
 		.wrapper.style1 {
@@ -2425,7 +2436,7 @@ input, select, textarea {
 			}
 
 			.dropotron > li:hover > a {
-				background: #ED3A40;
+				background: #ED3A40 ;
 				color: #fff;
 			}
 
@@ -2630,8 +2641,8 @@ input, select, textarea {
 		/* Section/Article */
 
 			header.special {
-				padding-top: 5.5em;
-				margin-bottom: 4em;
+				padding-top: 10em;
+				margin-bottom: 1em;
 			}
 
 	}
