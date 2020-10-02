@@ -15,6 +15,7 @@ footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
+font-family: 'Raleway', sans-serif;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -22,10 +23,12 @@ section, summary, time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+font-family: 'Raleway', sans-serif;}
 
 body {
 	line-height: 1;
+	font-family: 'Raleway', sans-serif;
 }
 
 ol, ul {
@@ -130,6 +133,7 @@ input, select, textarea {
 		margin-bottom: 1em;
 		text-transform: uppercase;
 
+
 	}
 
 	h7 {
@@ -156,6 +160,7 @@ input, select, textarea {
 	h2 {
 		font-size: 1.5em;
 		letter-spacing: 0.1em;
+		 font-family: 'Raleway', sans-serif;
 	}
 
 	h3 {
