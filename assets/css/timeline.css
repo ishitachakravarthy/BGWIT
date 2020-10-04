@@ -141,10 +141,10 @@
 
 }
 .arrows{
-  
+  margin: auto;   width: 50%; 
+  text-align: center;
   position: relative;
   
-  right: -5%;
 }
 .text{
   padding-bottom: 2.5em;
