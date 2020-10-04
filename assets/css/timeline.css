@@ -1,3 +1,4 @@
+
 #app {
   padding: 50px 0;
 }
@@ -13,11 +14,14 @@
   background-color: transparent;
   color: #000;
   padding:;
-  max-width: 400px;
+  max-width: 400px; 
+  margin-top: -2em;
   border: none;
   text-align: center;
   outline: none;
-  font-size: 15px;
+}
+.collapsible img{
+  width: 25%
 }
 .date{
   color: #000;
@@ -58,13 +62,11 @@
 }
 .status {
   display: flex;
-  justify-content: center;
-  border-top: solid #000;
+  justify-content: center;  
   position: relative;
 }
   
-.status span {
-    padding-top: 30px;
+.status span {  
     padding-right: 10px;
     padding-left: 10px;
     text-align: center;
@@ -72,13 +74,11 @@
 
 .status button:before {
   content: '';
-  width: 12px;
-  height: 12px;
   border-radius: 15px;
   background-color: #000;
   position: absolute;
   top: -6px;
-  left: calc(50% - 12px);
+  left: calc(50%);
   transition: all 200ms ease-in;
 }
 .swiper-control {
@@ -135,8 +135,9 @@
   font-size: 0.9em;
   text-transform: none;
   font-weight: 500;
-  margin-bottom: 20px;
   font-family: 'Raleway', sans-serif;
+  position: relative;
+  top
 
 }
 .arrows{
@@ -144,4 +145,9 @@
   position: relative;
   
   right: -5%;
+}
+.text{
+  padding-bottom: 2.5em;
+  border-bottom: solid #000;
+  height: 80px;
 }
