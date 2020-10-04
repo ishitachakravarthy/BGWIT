@@ -1,11 +1,14 @@
 var mySwiper = new Swiper('.swiper-container', {
   // Optional parameters
   direction: 'horizontal',
-  slidesPerView: 3,  
-   scrollbar: {
+  slidesPerView: 3,
+  freeMode: true,
+scrollbar: {
         el: '.swiper-scrollbar',
+        hide: false,
+        draggable: true,
       },
-  
+
 
   // If we need pagination
  
@@ -17,6 +20,8 @@ var mySwiper = new Swiper('.swiper-container', {
   },
 
 })
+
+
 
 var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -31,4 +36,7 @@ for (i = 0; i < coll.length; i++) {
       content.style.display = "block";
     }
   });
+
+
 }
+
