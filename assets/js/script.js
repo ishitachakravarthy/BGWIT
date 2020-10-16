@@ -3,6 +3,7 @@ var mySwiper = new Swiper('.swiper-container', {
   direction: 'horizontal',
   slidesPerView: 3,
   freeMode: true,
+  cssMode: true,
 scrollbar: {
         el: '.swiper-scrollbar',
         hide: false,
