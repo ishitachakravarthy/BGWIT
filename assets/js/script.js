@@ -4,11 +4,7 @@ var mySwiper = new Swiper('.swiper-container', {
   slidesPerView: 3,
   freeMode: true,
   cssMode: true,
-scrollbar: {
-        el: '.swiper-scrollbar',
-        hide: false,
-        draggable: true,
-      },
+
 
 
   // If we need pagination
