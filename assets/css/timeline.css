@@ -151,3 +151,6 @@
   border-bottom: solid #000;
   height: 80px;
 }
+
+.collapsible img:hover{
+ width:80%;
