@@ -18,10 +18,12 @@
   margin-top: -4em;
   border: none;
   text-align: center;
+
   outline: none;
 }
 .collapsible img{
-  width: 25%
+  
+  width: 25%;
 }
 .date{
   color: #000;
@@ -31,9 +33,11 @@
 
 .content img{
   width: 80%;
+
 }
 .collapsible img:hover{
- width:80%;
+ transform: scale(3.4);
+ border-radius: 0;
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
@@ -97,13 +101,14 @@
   height: relative;
   margin: 50px 0;
   overflow: hidden;
-  padding: 0 20px 30px 20px;
+  padding: 0 20px 30px 2px;
   font-family: 'Raleway', sans-serif;
 }
 .swiper-slide {
   width: 33.3%;
  text-align: center;
   font-size: 18px;
+  padding-bottom: 6em;
 }
 .swiper-slide:nth-child(2n) {
   width: 40%;
