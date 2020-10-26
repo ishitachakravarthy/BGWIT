@@ -1965,9 +1965,13 @@
 				top: 0;
 				width: 2.25em;
 			}
-
+				.icon.circle{
+					background-color: #fff;
+ 					color: #Ed3a40;
+				}
 				.icon.circle:hover {
-					top: -0.2em;
+					top: -0.3em;
+					background-color: #E0E0E0;
 				}
 
 				
@@ -2463,7 +2467,6 @@
 					border-top: 0;
 				}
 
-
 	/* Banner */
 
 		@-moz-keyframes reveal-banner {
@@ -2593,9 +2596,6 @@
 				padding: 3em 3em;
 			}
 
-			
-
-
 	/* CTA */
 
 		#cta {
@@ -2650,8 +2650,9 @@
 					}
 
 
-
+   /*Wider*/
 		@media screen and (max-width: 3680px){
+			
 
 			.special .icon img{
 			width: 4em;
@@ -2663,6 +2664,46 @@
 					padding: 3em 0 3em 0;
 					background-attachment: scroll;
 				}
+				/*Timeline*/
+				.swiper-container {
+					  width: 75%;
+					  margin: 50px 0;
+					  font-family: 'Raleway', sans-serif; overflow: visible;
+				}	
+				.date{
+					  color: #000;
+					  font-weight: 300;
+					  max-width:200px;
+					  font-size: 2em;
+				}
+				.collapsible img{
+				  width: 50%;
+				}
+				.text{
+				  border-bottom: solid #000;
+				  height: 7em;
+				  font-size: 2em;
+				}
+				.collapsible img:hover{
+					 transform: scale(2.2);
+				}
+				.swiper-slide {
+					padding-top: 2em;
+					padding-bottom: 11em;
+ 				}
+ 				.collapsible {
+					  background-color: transparent;
+					  color: #000;
+					  padding:;
+					  max-width: 400px; 
+					  margin-top: -10em;
+					  border: none;
+					  text-align: center;
+					  outline: none;
+					}
+
+
+
 
 		}
 
@@ -2690,7 +2731,45 @@
 				.icon img{
 				width: 5em;
 				}
-
+			/*Timeline*/
+				.swiper-container {
+					  width: 75%;
+					  margin: 50px 0;
+					  font-family: 'Raleway', sans-serif; overflow: visible;
+				}	
+				.date{
+					  color: #000;
+					  font-weight: 300;
+					  max-width:190px;
+					  font-size: 1.4em;
+				}
+				.collapsible img{
+				  width: 50%;
+				}
+				.text{
+				  border-bottom: solid #000;
+				  height: 12em;
+				  font-size: 1em;
+				}
+				.collapsible img:hover{
+					 transform: scale(2.2);
+				}
+				.swiper-slide {
+					padding-top: 2em;
+					padding-bottom: 10em;
+ 				}
+ 				.collapsible {
+					  background-color: transparent;
+					  color: #000;
+					  padding:;
+					  max-width: 400px; 
+					  margin-top: -8em;
+					  border: none;
+					  text-align: center;
+					  outline: none;
+					}
+				
+			
 		}
 
 	/* Normal */
@@ -2762,6 +2841,44 @@
 				.icon img{
 				width: 5em;
 				}
+				
+					/*Timeline*/
+				.swiper-container {
+					  width: 75%;
+					  margin: 50px 0;
+					  font-family: 'Raleway', sans-serif; overflow: visible;
+				}	
+				.date{
+					  color: #000;
+					  font-weight: 300;
+					  max-width:180px;
+					   font-size: 1.2em;
+				}
+				.collapsible img{
+				  width: 75%;
+				}
+				.text{
+				  border-bottom: solid #000;
+				  height: 11.5em;
+				  font-size: 1.1em;
+				}
+				.collapsible img:hover{
+					 transform: scale(1.5);
+				}
+				.swiper-slide {
+					padding-top: 2em;
+					padding-bottom: 4.3em;
+ 				}
+ 				.collapsible {
+					  background-color: transparent;
+					  color: #000;
+					  padding:;
+					  max-width: 400px; 
+					  margin-top: -10em;
+					  border: none;
+					  text-align: center;
+					  outline: none;
+					}
 
 		}
 
@@ -2838,10 +2955,46 @@
 					padding: 3em;
 				}
 
-		.icon img{
-		width: 5em;
-		}
-
+				.icon img{
+				width: 5em;
+				}
+				
+			/*Timeline*/
+				.swiper-container {
+					  width: 90%;
+					  margin: 50px 0;
+					  font-family: 'Raleway', sans-serif; overflow: visible;
+				}	
+				.date{
+					  color: #000;
+					  font-weight: 300;
+					  max-width:150px;
+				}
+				.collapsible img{
+				  width: 50%;
+				}
+				.text{
+				  border-bottom: solid #000;
+				  height: 11em;
+				  font-size: 0.9em;
+				}
+				.collapsible img:hover{
+					 transform: scale(2.26);
+				}
+				.swiper-slide {
+					padding-top: 2em;
+					padding-bottom: 7em;
+ 				}
+ 				.collapsible {
+					  background-color: transparent;
+					  color: #000;
+					  padding:;
+					  max-width: 400px; 
+					  margin-top: -7.5em;
+					  border: none;
+					  text-align: center;
+					  outline: none;
+					}
 		}
 
 	/* Narrower */
@@ -2950,7 +3103,7 @@
 			/* Main */
 
 				#main {
-					padding: 5em 0;
+					padding: 0em 0;
 				}
 
 					
@@ -3152,6 +3305,48 @@
 					transform: translateX(0);
 				}
 
+					.collapsible img:hover{
+					 transform: scale(1.7);
+				 
+				}
+				
+			/*Timeline*/
+				.swiper-container {
+					  width: 90%;
+					  margin: 50px 0;
+					  font-family: 'Raleway', sans-serif; overflow: visible;
+				}	
+				.date{
+					  color: #000;
+					  font-weight: 300;
+					  max-width:100px;
+					  font-size: 0.9em;
+				}
+				.collapsible img{
+				  width: 75%;
+				}
+				.text{
+				  border-bottom: solid #000;
+				  height: 12em;
+				  font-size: 0.9em;
+				}
+				.collapsible img:hover{
+					 transform: scale(1.5);
+				}
+				.swiper-slide {
+					padding-top: 2em;
+					padding-bottom: 4em;
+ 				}
+ 				.collapsible {
+					  background-color: transparent;
+					  color: #000;
+					  padding:;
+					  max-width: 400px; 
+					  margin-top: -8em;
+					  border: none;
+					  text-align: center;
+					  outline: none;
+					}
 		}
 
 	/* Mobile */
@@ -3369,5 +3564,81 @@
 					width: 50px;
 					height: 34px;
 				}
+			/*Timeline*/
+				.swiper-container {
+					  width: 90%;
+					  margin: 50px 0;
+					  font-family: 'Raleway', sans-serif; overflow: visible;
+					}	
+				.date{
+					  color: #000;
+					  font-weight: 300;
+					  max-width:60px;
+					}
+				.collapsible img{
+				  width: 60%;
+				}
+				.text{
+				  border-bottom: solid #000;
+				  height: 12em;
+				  font-size: 0.7em;
+				}
+				.collapsible img:hover{
+					 transform: scale(1.9);
+				}
+				.swiper-slide {
+					padding-top: 2em;
+					padding-bottom: 5em;
+ 				}
+				.collapsible {
+					  background-color: transparent;
+					  color: #000;
+					  padding:;
+					  max-width: 400px; 
+					  margin-top: -4em;
+					  border: none;
+					  text-align: center;
+					  outline: none;
+					}
+				
+		}
 
+@media screen and (max-width: 420px) {
+
+			/*Timeline*/
+				.swiper-container {
+					  width: 98%;
+					  margin: 50px 0;
+					  font-family: 'Raleway', sans-serif; overflow: visible;
+					}	
+				.date{
+					  color: #000;
+					  font-weight: 300;
+					  max-width:50px;
+					}
+				.collapsible img{
+				  width: 100%;
+				}
+				.text{
+				  border-bottom: solid #000;
+				  height: 12em;
+				  font-size: 0.7em;
+				}
+				.collapsible img:hover{
+					 transform: scale(1.35);
+				}
+				.swiper-slide {
+					padding-top: 2em;
+					padding-bottom: 1.2em;
+ 				}
+				.collapsible {
+					  background-color: transparent;
+					  color: #000;
+					  padding:;
+					  max-width: 400px; 
+					  margin-top: -3em;
+					  border: none;
+					  text-align: center;
+					  outline: none;
+					}
 		}
