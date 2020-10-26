@@ -2855,26 +2855,26 @@
 					   font-size: 1.2em;
 				}
 				.collapsible img{
-				  width: 75%;
+				  width: 40%;
 				}
 				.text{
 				  border-bottom: solid #000;
-				  height: 11.5em;
+				  height: 7em;
 				  font-size: 1.1em;
 				}
 				.collapsible img:hover{
-					 transform: scale(1.5);
+					 transform: scale(2.8);
 				}
 				.swiper-slide {
 					padding-top: 2em;
-					padding-bottom: 4.3em;
+					padding-bottom: 10em;
  				}
  				.collapsible {
 					  background-color: transparent;
 					  color: #000;
 					  padding:;
 					  max-width: 400px; 
-					  margin-top: -10em;
+					  margin-top: -4em;
 					  border: none;
 					  text-align: center;
 					  outline: none;
